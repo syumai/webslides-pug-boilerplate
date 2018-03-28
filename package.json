@@ -1,0 +1,12 @@
+{
+  "name": "webslides-pug-boilerplate",
+  "version": "0.1.0",
+  "repository": "https://github.com/syumai/slides-react-native-storybook",
+  "scripts": {
+    "start": "pug pages --out . --watch"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
