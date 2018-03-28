@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": "https://github.com/syumai/slides-react-native-storybook",
   "scripts": {
-    "start": "pug pages --out . --watch"
+    "start": "pug pages/index.pug pages/error.pug --out . --watch"
   },
   "devDependencies": {
     "pug": "^2.0.3",
