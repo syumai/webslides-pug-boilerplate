@@ -7,7 +7,7 @@ Boilerplate of [WebSlides](https://github.com/webslides/webslides/) with Pug
 ```console
 npm install
 
-npm start # Edit pages/index.pug!
+npm start # Edit pages/index.pug or pages/sections.pug!
 ```
 
 ## Demo

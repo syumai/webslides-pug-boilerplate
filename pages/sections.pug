@@ -1,0 +1,246 @@
+section
+  span.background(style="background-image:url('https://webslides.tv/static/images/nature.jpg')")
+  // .wrap = container (width: 90%)
+  .wrap.aligncenter
+    h1
+      strong Create beautiful stories
+    p.text-intro
+      | WebSlides makes HTML presentations easy.
+      br
+      |               Just the essentials and using lovely CSS.
+    p
+      a.button.zoomIn(href='https://webslides.tv/webslides-latest.zip', title='Download WebSlides for free')
+        svg.fa-cloud-download
+          use(xlink:href='#fa-cloud-download')
+        |                 WebSlides
+  // .end .wrap
+section
+  // .wrap = container (width: 90%)
+  .wrap.size-50.aligncenter
+    h2
+      strong Why WebSlides?
+    p.text-intro
+      a(href='demos/why-webslides.html', title='Why WebSlides?') Presentations
+      | , 
+      a(href='demos/landings.html', title='Landings') landings
+      | , 
+      a(href='demos/portfolios.html', title='Portfolios') portfolios
+      | , and 
+      a(href='demos/longforms.html', title='Longforms') longforms
+      | .
+    .bg-white.shadow
+      ul.flexblock.reasons
+        li
+          h2 An opportunity to engage.
+          p
+            | WebSlides is about good karma. This is about telling the story, and sharing it in a beautiful way. HTML and CSS as narrative elements.
+        li
+          h2 Work better, faster.
+          p
+            | Designers, marketers, and journalists can now focus on the content. Simply 
+            a(href='demos/index.html', title='WebSlides Demos') choose a demo
+            |  and customize it in minutes.
+    // .end .bg-white shadow
+  // .end .wrap
+section
+  // .wrap = container (width: 90%)
+  .wrap
+    .grid.vertical-align
+      .column
+        h3
+          strong WebSlides is really easy
+        p.text-intro
+          | Each parent 
+          code <section>
+          |  in the #webslides element is an individual slide.
+        p
+          | Code is clean and scalable. It uses 
+          strong intuitive markup
+          |  with popular naming conventions. There's no need to overuse classes or nesting. 
+          strong Making an HTML presentation has never been so fast
+          | .
+      // .end .column
+      .column
+        pre.
+          <article id="webslides">
+            <section>
+              <h1>Design for trust</h1>
+            </section>
+            <section class="bg-primary">
+              <div class="wrap">
+                <h2>.wrap = container (width: 90%)</h2>
+              </div>
+            </section>
+          </article>
+      // .end .column
+    // .end .grid
+  // .end .wrap
+section
+  .wrap
+    h2 Features
+    ul.flexblock.features
+      li
+        div
+          h2
+            span →
+            |                     Simple Navigation
+          |                   with arrow keys, presenter...
+      li
+        div
+          h2
+            svg.fa-link
+              use(xlink:href='#fa-link')
+            |                     Permalinks
+          |                   Go to a specific slide.
+      li
+        div
+          h2
+            svg.fa-clock-o
+              use(xlink:href='#fa-clock-o')
+            |                     Slide Counter
+          |                   Current/Total number.
+      li
+        div
+          h2
+            span
+              | 40
+              sup +
+            |                     Beautiful Components
+          |                   Covers, cards, quotes...
+      li
+        div
+          h2
+            svg.fa-text-height
+              use(xlink:href='#fa-text-height')
+            |                     Vertical Rhythm
+          |                   Use multiples of 8.
+      li
+        div
+          h2
+            span
+              | 500
+              sup +
+            |                     SVG Icons
+          |                   Font Awesome Kit.
+section
+  .wrap
+    h2
+      strong WebSlides Demos
+    p
+      | Contribute on 
+      a(href='https://github.com/webslides/webslides', title='Contribute on Github') Github
+      | . 
+      span.alignright
+        a(href='demos/index.html', title='WebSlides Demos') View all ›
+    ul.flexblock.gallery
+      li
+        a(href='demos/why-webslides.html', title='Why WebSlides?')
+          figure
+            img(alt='Thumbnail Why WebSlides?', src='https://webslides.tv/static/images/demos-why.png')
+            figcaption
+              h2 Why WebSlides?
+      li
+        a(href='demos/landings.html', title='Landings')
+          figure
+            img(alt='Thumbnail Landings', src='https://webslides.tv/static/images/demos-landings.png')
+            figcaption
+              h2 Landings
+      li
+        a(href='demos/portfolios.html', title='Portfolios')
+          figure
+            img(alt='Thumbnail Portfolios', src='https://webslides.tv/static/images/demos-portfolios.png')
+            figcaption
+              h2 Portfolios
+      li
+        a(href='demos/keynote.html', title='Apple Keynote')
+          figure
+            img(alt='Thumbnail Apple Keynote', src='https://webslides.tv/static/images/demos-apple.png')
+            figcaption
+              h2 Apple Keynote
+  // .end .wrap
+section
+  .wrap
+    .grid.vertical-align
+      .column
+        h4
+          svg.fa-life-ring
+            use(xlink:href='#fa-life-ring')
+          strong Guides
+        p
+          | If you need help, here's just three tutorials. Just a basic knowledge of HTML is required:
+        ul.description
+          li
+            a(href='demos/components.html', title='WebSlides Components') WebSlides Components
+            | .
+          li
+            a(href='demos/classes.html', title='WebSlides Classes') WebSlides Classes
+            | .
+          li
+            a(href='demos/media.html', title='WebSlides Media') WebSlides Media: images, videos...
+      .column
+        figure
+          img.aligncenter(src='static/images/setup.png', alt='WebSlides Files')
+      .column
+        h4
+          svg.fa-cubes
+            use(xlink:href='#fa-cubes')
+          strong Built to expand
+        p
+          | The best way to 
+          strong inspire with your content
+          |  is to connect on a personal level:
+        ul.description
+          li
+            | Background images: 
+            a(href='http://unsplash.com') Unsplash
+            | .
+          li
+            | CSS animations: 
+            a(href='https://daneden.github.io/animate.css/') Animate.css
+            | .
+          li
+            | Longforms: 
+            a(href='http://michalsnik.github.io/aos/')  Animate on scroll
+            | .
+    // end .grid
+section.aligncenter
+  // .wrap = container (width: 90%)
+  .wrap
+    h2
+      strong Ready to Start?
+    p.text-intro
+      | Create your own presentation instantly. 
+      br
+      | 120+ premium slides ready to use.
+    p
+      a.button(href='https://webslides.tv/webslides-latest.zip', title='Download WebSlides')
+        svg.fa-cloud-download
+          use(xlink:href='#fa-cloud-download')
+        |                 Free Download
+      span.try
+        a(href='https://www.paypal.me/jlantunez/8', title='Thanks :)')
+          svg.fa-paypal
+            use(xlink:href='#fa-paypal')
+          |                   Pay what you want.
+  // .end .wrap
+section.slide-bottom
+  .wrap
+    .content-right.text-serif
+      h2
+        strong Thanks.
+        a(target='_blank', title='Share on Twitter', href='https://twitter.com/intent/tweet?text=Finally,%20everything%20you%20need%20to%20make%20HTML%20presentations%20in%20a%20fast/beautiful%20way.%20@WebSlides%20=%20Good%20karma%20—%20https://webslides.tv')
+          svg.fa-twitter
+            use(xlink:href='#fa-twitter')
+      p
+        | People share content that makes them feel inspired. WebSlides is a very effective way to engage young audiences, customers, and teams.
+      p
+        | Best,
+        br
+        a(href='https://twitter.com/jlantunez') @jlantunez
+        | , 
+        a(href='https://twitter.com/belelros') @belelros
+        | , and 
+        a(href='https://twitter.com/luissacristan') @luissacristan
+        | .
+    // .end .content-right
+  // .end .wrap
